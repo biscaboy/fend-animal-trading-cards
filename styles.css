@@ -1,0 +1,46 @@
+/* Trading Card Style Sheet */
+body {
+	font-family: "Times New Roman", san-serif;
+	font-size: 12px;
+	width: 310px;
+}
+
+ul {
+	list-style: none;
+	/* lines the list up with text */
+	padding-left: 0;
+}
+
+li span.label {
+	font-weight: bold;
+}
+
+img.animal {
+	width: 300px;
+}
+
+.card {
+	width: 100%;
+	box-shadow: 5px 5px 3px #eee;
+	padding: 10px;
+}
+
+.card,
+.header,
+.info-panel {
+	margin: 5px;
+}
+
+.card,
+.info-panel{
+	border: solid 1px #ddd;
+}
+
+.info-panel{
+	padding: 0 10px 0 10px;
+}
+
+.interesting-fact {
+	font-style: italic;
+}
+
